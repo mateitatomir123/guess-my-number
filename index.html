@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ghicește Numărul!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ghicește Numărul!</h1>
+      <p class="between">(Între 1 și 20)</p>
+      <button class="btn again">Joacă din nou!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Verifică!</button>
+      </section>
+      <section class="right">
+        <p class="message">Începe să ghicești...</p>
+        <p class="label-score">💯 Scorul: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Cel mai mare scor: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
